@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  body {
+  background:darkslategray;
+  }
+  .todo-container {
+  color:whitesmoke;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  padding: 50px;
+  width: 1000px;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .todo {
+  width: 400px;
+  }
+  .todo-container h1 {
+  padding: 10px;
+  font-family: 'Candal', sans-serif;
+  font-size: 2em;
+  color: lightskyblue;
+  }
+  .todo-header input {
+  width: 92%;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  background-color: lightgrey;
+  font-size: larger;
+  font-family: 'Candal', sans-serif;
+  }
+  .todo-header button {
+  color: white;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  padding: 7px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: mediumvioletred;
+  }
+  .todo-container ul {
+  list-style: none;
+  }
+  .todo-list-item {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  font-weight:bolder;
+  font-style:normal;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  }
+  .todo-list-item form {
+  width: 100%;
+  display: flex;
+  }
+  .todo-list-item input {
+  flex-grow: 2;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Candal', sans-serif;
+  }
+  .todo-list-item button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Candal', sans-serif;
+  background-color: seagreen;
+  }
+  .todo-list-item .cancel {
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Candal', sans-serif;
+  background-color: brown;
+  margin-left: 5px;
+  }
+  .todo-list-item div {
+  flex-grow: 2;
+  }
+  .todo-list-item .edit {
+  color : seagreen;
+  margin-right: 10px;
+  cursor:pointer;
+  text-decoration: none;
+  }
+  .todo-list-item .remove {
+  color : brown;
+  margin-right: 5px;
+  cursor:pointer;
+  text-decoration: none;
+  }
